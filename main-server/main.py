@@ -14,7 +14,7 @@ async def home():
 #Processar dados recebidos
 @app.get("/synthData")
 async def synth_data(data: dict):
-    data_to_return = await functions.process_received_data(data.get("data_dict"), data.get("token"))
+    data_to_return = await functions.process_received_data(data=data.get("data_dict"), token=data.get("token"))
     return data_to_return
 
 if __name__ == '__main__':

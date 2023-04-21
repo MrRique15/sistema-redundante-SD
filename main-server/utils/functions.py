@@ -15,7 +15,7 @@ async def process_received_data(data: dict, token: str, processing_unit=0):
                     processing_unit += 1
                     print(f"retying with route: {processing_urls[processing_unit]}")
                     
-                    return await process_received_data(data, token, processing_unit)
+                    return await process_received_data(data=data, token=token, processing_unit=processing_unit)
                 return {"message": "Error processing data, any processing unit is available"}
             else:
                 return {"message": "Error processing data: " + str(e)}
