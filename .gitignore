@@ -1,4 +1,1 @@
-processing-units/env/
-processing-units/__pycache__/
-main-server/env/
-main-server/__pycache__/
+env/
