@@ -1,2 +1,4 @@
-env/
-__pycache__/
+processing-units/env/
+processing-units/__pycache__/
+main-server/env/
+main-server/__pycache__/
