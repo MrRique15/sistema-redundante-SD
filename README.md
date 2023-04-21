@@ -64,5 +64,7 @@ The main servers analyze the requests and the status of the processing servers.<
 For first, it tryes to send the request to the processing server on port `7771`, if it isn´t available, the main server will try sendding to processing server with por `7772` or `7773`.<br/>
 If the three processing servers are unavailable, the main server will send a message to the client saying that the servers are unavailable.<br/>
 
+![image](https://user-images.githubusercontent.com/61984488/233520276-8b759e68-2c7d-4cb9-b6e4-741047d8a598.png)
+
 ---
 Enjoy it! :D
