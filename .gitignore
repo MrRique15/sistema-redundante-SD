@@ -1,3 +1,2 @@
-# add ignore for __pycache__ and env folders
-env
-__pycache__
+./env/
+./__pycache__/
